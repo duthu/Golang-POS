@@ -1,0 +1,10 @@
+'use server'
+import { redirect } from "next/navigation";
+
+
+export async function goToSales(){
+    redirect("/sales")
+    return(
+        <></>
+    )
+}
